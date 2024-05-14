@@ -1,0 +1,14 @@
+env: "local"
+http_server: 
+  address: localhost:8080
+  timeout: 10s
+  idle_timeout: 120s
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: einai
+  dbname: banner
+jwt:
+  secret: FJKngdjkfgndfkgc534tlLKFJKLmfkdfjnk
+default_admin_pass: NJKfsjkdtoierf
